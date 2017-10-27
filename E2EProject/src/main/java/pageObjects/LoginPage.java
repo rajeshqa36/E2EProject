@@ -24,8 +24,6 @@ public class LoginPage {
 	}
 
 
-
-
 	public WebElement getEmail()
 	{
 		return driver.findElement(email);
