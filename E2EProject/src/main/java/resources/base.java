@@ -31,14 +31,14 @@ System.out.println(browserName);
 
 if(browserName.equals("chrome"))
 {
-	 System.setProperty("webdriver.chrome.driver", "./chromedriver.exe");
+	 System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver.exe");
 	driver= new ChromeDriver();
 		//execute in chrome driver
 	
 }
 else if (browserName.equals("firefox"))
 {
-	 System.setProperty("webdriver.gecko.driver", "./geckodriver.exe");
+	 System.setProperty("webdriver.gecko.driver", "./Driver/geckodriver.exe");
 
 	 driver= new FirefoxDriver();
 	//firefox code
